@@ -1161,7 +1161,7 @@ const containerPropCheck = ({ boundariesElement }) => {
 };
 
 const triggerPropsCheck = ({ trigger }: { trigger: triggerType }) => {
-  if (!trigger) return Error("Invalid prop trigger. Prop missing.");
+  //if (!trigger) return Error("Invalid prop trigger. Prop missing.");
 
   const triggers = Object.entries(trigger);
 
